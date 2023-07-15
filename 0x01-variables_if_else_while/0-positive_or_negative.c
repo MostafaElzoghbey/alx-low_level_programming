@@ -3,6 +3,10 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - print
+ * any thing 
+*/
 int main(void)
 {
 	int n;
