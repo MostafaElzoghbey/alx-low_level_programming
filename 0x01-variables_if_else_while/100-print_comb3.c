@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (x1 = 0; x1 < 10; x1++)
 		{
-			if (x1 > x2)
+			if (x1 > x2)			
 			{
 				putchar('0' + x2);	
 				putchar('0' + x1);
