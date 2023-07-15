@@ -16,7 +16,7 @@ int main(void)
 		{
 			if (x1 > x2)			
 			{
-				putchar('0' + x2);	
+				putchar('0' + x2);
 				putchar('0' + x1);
 				if (x1 != 9 || x2 != 8)
 				{
