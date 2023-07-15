@@ -2,8 +2,8 @@
 
 /**
  * print_alphabet
- * descrition
- * descrition
+ * descrition funciotn
+ * descrition return
 */
 int main(void)
 {
