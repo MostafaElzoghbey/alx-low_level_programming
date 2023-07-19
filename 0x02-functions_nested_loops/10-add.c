@@ -3,19 +3,14 @@
 #include "_putchar.c"
 
 /**
- * main - do something
- * Return: Always 0 (Success)
+ * add - do something
+ * @n1: int
+ * @n2: int
+ * Return: result
  */
 int add(int n1, int n2)
 {
-    long int r = n1 + n2;
-    return (r);
-}
-int main(void)
-{
-    int n;
+	long int r = n1 + n2;
 
-    n = add(89, 9);
-    printf("%d\n", n);
-    return (0);
+	return (r);
 }
