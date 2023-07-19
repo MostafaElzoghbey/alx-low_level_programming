@@ -52,10 +52,7 @@ int print1_to_98(int n)
 			}
 		}
 	}
-	else
-	{
-		return (-1);
-	}
+	return (-1);	
 }
 void print_to_98(int n)
 {
