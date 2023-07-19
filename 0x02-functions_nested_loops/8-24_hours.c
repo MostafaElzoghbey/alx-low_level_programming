@@ -1,17 +1,30 @@
 #include "main.h"
-#include "_putchar.c"
 
 /**
- * main - do something
+ * jack_bauer - prints every minute of the day of Jack Bauer
+ * starting from 00:00 to 23:59
  * Return: Always 0 (Success)
  */
 void jack_bauer(void)
 {
-    int 
-    _putchar()
+    int i, j;
+
+	for (i = 0; i < 24; i++)
+	{
+		for (j = 0; j < 60; j++)
+		{
+			
+            putchar((i / 10) + 48);
+            putchar((i % 10) + 48);
+            putchar(':');
+            putchar((j / 10) + 48);
+            putchar((j % 10) + 48);
+            putchar('\n');
+		}
+	}
 }
 int main(void)
 {
+    jack_bauer();
     return (0);
 }
-
