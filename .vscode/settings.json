@@ -2,7 +2,8 @@
   "files.associations": {
     "stdio.h": "c",
     "_putchar.h": "c",
-    "0-putchar.h": "c"
+    "0-putchar.h": "c",
+    "main.h": "c"
   },
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
