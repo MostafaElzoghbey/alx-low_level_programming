@@ -3,7 +3,7 @@ touch $@
 for i in $@
 do
    cat > $i << e
-#include "stdio.h"
+#include <stdio.h>
 
 /**
  * main - do something
@@ -13,6 +13,5 @@ int main(void)
 {
     return (0);
 }
-
 e
 done
