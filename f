@@ -14,4 +14,5 @@ int main(void)
 	return (0);
 }
 e
+chmod 775 $i
 done

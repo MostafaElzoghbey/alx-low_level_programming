@@ -27,6 +27,7 @@
 ./0x01-variables_if_else_while/101-print_comb4
 ./0x01-variables_if_else_while/102-print_comb5
 ./0x01-variables_if_else_while/2-print_alphabet
+./0x01-variables_if_else_while/3-print_alphabets
 ./0x01-variables_if_else_while/3-print_alphabets.c
 ./0x01-variables_if_else_while/4-print_alphabt
 ./0x01-variables_if_else_while/5-print_numbers
@@ -88,6 +89,7 @@
 0x01-variables_if_else_while/101-print_comb4
 0x01-variables_if_else_while/102-print_comb5
 0x01-variables_if_else_while/2-print_alphabet
+0x01-variables_if_else_while/3-print_alphabets
 0x01-variables_if_else_while/3-print_alphabets.c
 0x01-variables_if_else_while/4-print_alphabt
 0x01-variables_if_else_while/5-print_numbers
