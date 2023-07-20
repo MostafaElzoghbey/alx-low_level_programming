@@ -4,7 +4,7 @@
  * main - do something
  * Return: Always 0 (Success)
  */
-int main(int n)
+int main(void)
 {
 	long int i, n1, n2, r;
 
