@@ -15,7 +15,6 @@ int main(void)
 	sum = 0;
 	while (r <= 4000000)
 	{
-		i += 1;
 		r = n1 + n2;
 		if (r <= 4000000)
 		{
@@ -26,6 +25,7 @@ int main(void)
 			n1 = n2;
 			n2 = r;
 		}
+		i += 1;
 	}
 	printf("%ld", sum);
 	printf("\n");
