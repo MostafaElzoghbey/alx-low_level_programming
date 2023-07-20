@@ -51,6 +51,11 @@
 ./0x02-functions_nested_loops/file2
 ./f
 ./file3
+./file4
+./file5
+./file6
+./file7
+./file8
 ./g
 .git/hooks/applypatch-msg.sample
 .git/hooks/commit-msg.sample
@@ -108,6 +113,6 @@ file3
 file4
 file5
 file6
-find . -executable -type f
+file7
+file8
 g
-file8.c
