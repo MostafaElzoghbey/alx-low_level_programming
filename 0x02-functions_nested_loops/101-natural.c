@@ -8,6 +8,10 @@ int main(void)
 {
 	long int i, sum3, sum5;
 
+	i = 0;
+	sum3 = 0;
+	sum5 = 0;
+
 	for (i = 3; i <= 1024; i ++)
 	{
 		if ((i % 3) == 0)
