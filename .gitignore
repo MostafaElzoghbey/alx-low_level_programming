@@ -50,6 +50,7 @@
 ./0x02-functions_nested_loops/file1
 ./0x02-functions_nested_loops/file2
 ./f
+./file10
 ./file3
 ./file4
 ./file5
@@ -110,6 +111,7 @@
 0x02-functions_nested_loops/file1
 0x02-functions_nested_loops/file2
 f
+file10
 file3
 file4
 file5
