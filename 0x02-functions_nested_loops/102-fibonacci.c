@@ -14,7 +14,14 @@ int main(void)
 	for(i = 1; i <= 48; i++)
 	{
 		r = n1 + n2;
-		printf("%ld, ", r);
+		if (i != 48)
+		{
+			printf("%ld, ", r);
+			
+		} else 
+		{
+			printf("%ld", r);
+		}
 		n1 = n2;
 		n2 = r;
 	}
