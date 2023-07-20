@@ -103,3 +103,4 @@
 ./0x00-hello_world/1-compiler
 ./f
 ./g
+find . -executable -type f
