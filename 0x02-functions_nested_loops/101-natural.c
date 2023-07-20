@@ -6,18 +6,19 @@
  */
 int main(void)
 {
-	int n1, n2, r;
+	int i, sum3, sum5;
 
-	r = 0;
-	for (n1 = 3; n1 <= 1024; n1 += 3)
+	for (i = 3; i <= 1024; i ++)
 	{
-		r += n1;
+		if ((i % 3) == 0)
+		{
+			sum3 = sum3 + i;
+		} else if ((i % 5) == 0)
+		{
+			sum5 = sum5 + i;
+		}
 	}
-	for (n2 = 5; n2 <= 1024; n2 += 5)
-	{
-		r += n2;
-	}
-	printf("%d", r);
+	printf("%d", sum3 + sum5);
 
 	return (0);
 }
