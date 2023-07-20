@@ -56,6 +56,7 @@
 ./file6
 ./file7
 ./file8
+./file9
 ./g
 .git/hooks/applypatch-msg.sample
 .git/hooks/commit-msg.sample
@@ -115,4 +116,5 @@ file5
 file6
 file7
 file8
+file9
 g
