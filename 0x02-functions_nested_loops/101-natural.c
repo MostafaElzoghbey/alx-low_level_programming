@@ -6,12 +6,13 @@
  */
 int main(void)
 {
-	unsigned long int i, sum3, sum5;
+	unsigned long int i, sum3, sum5, r;
 
 	i = 0;
 	sum3 = 0;
 	sum5 = 0;
-
+	r = 0;
+	
 	for (i = 3; i <= 1024; i ++)
 	{
 		if ((i % 3) == 0)
@@ -22,7 +23,8 @@ int main(void)
 			sum5 = sum5 + i;
 		}
 	}
-	printf("%ld", sum3 + sum5);
+	r = sum3 + sum5;
+	printf("%ld", r);
 
 	return (0);
 }
