@@ -110,3 +110,4 @@ file5
 file6
 find . -executable -type f
 g
+file8.c
