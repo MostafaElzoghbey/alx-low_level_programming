@@ -15,18 +15,20 @@ int main(void)
 	sum = 0;
 	while (r <= 4000000)
 	{
-		r = n1 + n2;
 		if (r <= 4000000)
 		{
-			if (i % 2 == 0)
+			printf("%ld, ", r);
+			if ((i % 2) == 0)
 			{
-				sum += r;
+				sum += n2;
 			}
-			n1 = n2;
-			n2 = r;
 		}
+		r = n1 + n2;
+		n1 = n2;
+		n2 = r;
 		i += 1;
 	}
+	printf("\n");
 	printf("%ld", sum);
 	printf("\n");
 
