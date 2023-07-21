@@ -14,12 +14,8 @@
 ./0x00-hello_world/0-preprocessor
 ./0x00-hello_world/1-compiler
 ./0x00-hello_world/100-intel
-./0x00-hello_world/101-quote.c
 ./0x00-hello_world/2-assembler
 ./0x00-hello_world/3-name
-./0x00-hello_world/4-puts.c
-./0x00-hello_world/5-printf.c
-./0x00-hello_world/6-size.c
 ./0x00-hello_world/c
 ./0x01-variables_if_else_while/0-positive_or_negative
 ./0x01-variables_if_else_while/1-last_digit
@@ -28,7 +24,6 @@
 ./0x01-variables_if_else_while/102-print_comb5
 ./0x01-variables_if_else_while/2-print_alphabet
 ./0x01-variables_if_else_while/3-print_alphabets
-./0x01-variables_if_else_while/3-print_alphabets.c
 ./0x01-variables_if_else_while/4-print_alphabt
 ./0x01-variables_if_else_while/5-print_numbers
 ./0x01-variables_if_else_while/6-print_numberz
@@ -77,12 +72,8 @@
 0x00-hello_world/0-preprocessor
 0x00-hello_world/1-compiler
 0x00-hello_world/100-intel
-0x00-hello_world/101-quote.c
 0x00-hello_world/2-assembler
 0x00-hello_world/3-name
-0x00-hello_world/4-puts.c
-0x00-hello_world/5-printf.c
-0x00-hello_world/6-size.c
 0x00-hello_world/c
 0x01-variables_if_else_while/0-positive_or_negative
 0x01-variables_if_else_while/1-last_digit
@@ -91,7 +82,6 @@
 0x01-variables_if_else_while/102-print_comb5
 0x01-variables_if_else_while/2-print_alphabet
 0x01-variables_if_else_while/3-print_alphabets
-0x01-variables_if_else_while/3-print_alphabets.c
 0x01-variables_if_else_while/4-print_alphabt
 0x01-variables_if_else_while/5-print_numbers
 0x01-variables_if_else_while/6-print_numberz
