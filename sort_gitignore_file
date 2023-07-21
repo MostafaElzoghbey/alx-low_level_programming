@@ -1,0 +1,1 @@
+T=$(mktemp); (cat /workspaces/alx-low_level_programming/.gitignore; find . -executable -type f | sed -e 's%^\./%%') | sort | uniq >$T; mv $T /workspaces/alx-low_level_programming/.gitignore
