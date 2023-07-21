@@ -2,6 +2,7 @@
 
 /**
  * _isupper - do something
+ * @c: int
  * Return: 0 or one
  */
 int _isupper(int c)
