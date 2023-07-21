@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - do something
- * Return: Always 0 (Success)
+ * _isupper - do something
+ * Return: 0 or one
  */
-int main(void)
+int _isupper(int c)
 {
-	return (0);
+	return (c >= 'A' && c <= 'A');
 }
