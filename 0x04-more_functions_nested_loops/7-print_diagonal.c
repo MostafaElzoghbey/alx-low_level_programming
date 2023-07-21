@@ -1,8 +1,3 @@
-#!/bin/bash
-touch $@
-for i in $@
-do
-   cat > $i << e
 #include <stdio.h>
 
 /**
@@ -13,6 +8,3 @@ int main(void)
 {
 	return (0);
 }
-e
-chmod 664 $i
-done
