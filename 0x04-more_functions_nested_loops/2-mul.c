@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - do something
- * Return: Always 0 (Success)
+ * mul - do something
+ * @a: int
+ * @b: int
+ * Return: something
  */
-int main(void)
+int mul(int a, int b)
 {
-	return (0);
+	return (a * b);
 }
