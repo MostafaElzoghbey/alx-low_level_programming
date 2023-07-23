@@ -1,10 +1,18 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - do something
+ * maprint_diagonalin - do something
+ * @n: int
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_diagonal(int n)
 {
-	return (0);
+	int i;
+
+	for (i = 1; i <= n; i++)
+	{
+		_putchar('\\');
+		_putchar(' ');
+	}
+	_putchar('\n');
 }
