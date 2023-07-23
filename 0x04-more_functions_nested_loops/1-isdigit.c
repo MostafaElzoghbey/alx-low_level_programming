@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - do something
- * Return: Always 0 (Success)
+ * _isdigit - do something+
+ * @c: int
+ * Return: 0 or 1
  */
-int main(void)
+int _isdigit(int c)
 {
-	return (0);
+	return (c >= 0 && c <= 9);
 }
