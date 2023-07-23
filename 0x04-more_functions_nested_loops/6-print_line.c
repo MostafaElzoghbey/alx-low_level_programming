@@ -1,10 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - do something
- * Return: Always 0 (Success)
+ * print_line - do something
+ * Return: something
  */
-int main(void)
+void print_line(int n)
 {
-	return (0);
+	int i;
+
+	for (i = 1; i < n; i++)
+	{
+		_putchar('_');
+	}
+	_putchar('\n');
 }
