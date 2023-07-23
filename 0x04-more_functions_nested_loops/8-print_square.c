@@ -1,10 +1,24 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - do something
+ * print_square - do something
+ * @size: int
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_square(int size)
 {
-	return (0);
+	int i, j;
+
+	for (i = 1; i <= size; i++)
+	{
+		for (j = 1; j <= size; j++)
+		{
+			_putchar('#');
+		}
+		_putchar('\n');
+	}
+	if (size <= 0)
+	{
+	_putchar('\n');
+	}
 }
