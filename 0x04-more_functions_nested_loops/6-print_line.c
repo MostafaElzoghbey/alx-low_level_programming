@@ -2,6 +2,7 @@
 
 /**
  * print_line - do something
+ * @n: int 
  * Return: something
  */
 void print_line(int n)
