@@ -8,5 +8,7 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
-  "python.formatting.provider": "autopep8"
+  "python.formatting.provider": "autopep8",
+  "C_Cpp.default.compilerPath": "/home/sasa/alx-low_level_programming/0x03-debugging/0-main.c",
+  "C_Cpp.errorSquiggles": "enabled"
 }
