@@ -1,10 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - do something
- * Return: Always 0 (Success)
+ * print_numbers - do something
+ * Return: something
  */
-int main(void)
+void print_numbers(void)
 {
-	return (0);
+	int n;
+
+	for (n = 0; n < 10; n++)
+	{
+		_putchar('0' + n);
+	}
+	_putchar('\n');
 }
