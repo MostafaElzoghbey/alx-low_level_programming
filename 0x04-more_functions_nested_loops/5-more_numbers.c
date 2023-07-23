@@ -1,10 +1,23 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - do something
- * Return: Always 0 (Success)
+ * more_numbers - do something
+ * Return: thing
  */
-int main(void)
+void more_numbers(void)
 {
-	return (0);
+	int i, j;
+
+	for (i = 0; i <= 14; i++)
+	{
+		for (j = 0; j <= 14; j++)
+		{
+			if (j >= 10)
+			{
+			_putchar('0' + j / 10);
+			}
+			_putchar('0' + j % 10);
+		}
+		_putchar('\n');
+	}
 }
