@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * maprint_diagonalin - do something
+ * print_diagonal - do something
  * @n: int
- * Return: Always 0 (Success)
+ * Return: thing
  */
 void print_diagonal(int n)
 {
