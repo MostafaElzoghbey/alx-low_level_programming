@@ -9,7 +9,6 @@ int _strlen(char *s)
 {
 	int len = 0;
 	int i;
-	char elm = *s;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
