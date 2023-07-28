@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Prototype - do something
+ * reset_to_98 - do something
  * @n: int or char
  * Return: some thing
  */
