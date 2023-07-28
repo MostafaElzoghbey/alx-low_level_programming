@@ -11,7 +11,7 @@ cat > $i << e
  */
 void Prototype()
 {
-
+	
 }
 e
 done
