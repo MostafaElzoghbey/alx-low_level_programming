@@ -1,0 +1,17 @@
+#!/bin/bash
+for i in $@
+do
+cat > $i << e
+#include "main.h"
+
+/**
+ * Prototype - do something
+ * @: int or char
+ * Return: some thing
+ */
+void Prototype()
+{
+
+}
+e
+done
