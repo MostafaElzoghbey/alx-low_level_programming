@@ -1,11 +1,15 @@
 #include "main.h"
 
 /**
- * Prototype - do something
- * @: int or char
+ * swap_int - do something
+ * @a: int or char
+ * @b: int or char
  * Return: some thing
  */
-void Prototype()
+void swap_int(int *a, int *b)
 {
+	int temp = *a;
 
+	*a = *b;
+	*b = temp;
 }
