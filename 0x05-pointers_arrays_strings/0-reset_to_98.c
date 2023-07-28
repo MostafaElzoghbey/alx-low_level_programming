@@ -2,10 +2,10 @@
 
 /**
  * Prototype - do something
- * @: int or char
+ * @n: int or char
  * Return: some thing
  */
-void Prototype()
+void reset_to_98(int *n)
 {
-
+	*n = 98;
 }
