@@ -1,11 +1,19 @@
 #include "main.h"
 
 /**
- * Prototype - do something
- * @: int or char
+ * _strlen - do something
+ * @s: int or char
  * Return: some thing
  */
-void Prototype()
+int _strlen(char *s)
 {
+	char elm = *s;
+	int len = 0;
 
+	while (*s != '\0')
+	{
+		*s++;
+		len++;
+	}
+	return (len);
 }
