@@ -1,11 +1,20 @@
 #include "main.h"
 
 /**
- * Prototype - do something
- * @: int or char
+ * puts2 - do something
+ * @str: int or char
  * Return: some thing
  */
-void Prototype()
+void puts2(char *str)
 {
+	int i;
 
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		if (i % 2 == 0)
+		{
+			_putchar(str[i]);
+		}
+	}
+	_putchar('\n');
 }
