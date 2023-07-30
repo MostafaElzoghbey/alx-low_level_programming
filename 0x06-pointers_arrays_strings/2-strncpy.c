@@ -1,11 +1,24 @@
 #include "main.h"
 
 /**
- * Prototype - do something
- * @: int or char
- * Return: some thing
+ * _strncpy - do something
+ * @dest: pointer to char
+ * @src: pointer to char
+ * @n: int
+ * Return: something
  */
-void Prototype()
+char *_strncpy(char *dest, char *src, int n)
 {
-	
+	int len2 = 0;
+	int lenTotal = 0;
+
+	while (src[len2] != '\0' && len2 < n)
+	{
+		dest[lenTotal] = src[len2];
+		len2++;
+		lenTotal++;
+	}
+	dest[lenTotal] = '\0';
+
+	return (dest);
 }
