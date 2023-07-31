@@ -19,6 +19,7 @@ char *rot13(char *str)
 			if (str[len] == text[i])
 			{
 				str[len] = code[i];
+				break;
 			}
 		}
 	}
