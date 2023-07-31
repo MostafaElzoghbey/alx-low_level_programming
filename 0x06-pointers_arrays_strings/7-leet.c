@@ -13,11 +13,11 @@ char *leet(char *str)
 	{
 		if (str[len] == 'a' || str[len] == 'A')
 		{
-			str[len] = "4";
+			str[len] = 'a' - ('a' - '4');
 		}
 		else if (str[len] == 'e' || str[len] == 'E')
 		{
-			str[len] = "3";
+			str[len] = 'e' - ('e' - 'e');
 		}
 	}
 
