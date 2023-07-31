@@ -13,7 +13,8 @@ char *cap_string(char *str)
 	{
 		if ((str[len - 1] < 'a' || str[len - 1] > 'z')
 		&& (str[len - 1] < 'A' || str[len - 1] > 'Z')
-		&& (str[len - 1] < '0' || str[len - 1] > '9'))
+		&& (str[len - 1] < '0' || str[len - 1] > '9')
+		&& str[len - 1] != '-')
 		{
 			if (str[len] >= 'a' && str[len] <= 'z')
 			{
