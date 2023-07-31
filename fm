@@ -7,7 +7,7 @@ cat > $i << e
 /**
  * Prototype - do something
  * @: int or char
- * Return: some thing
+ * Return: something
  */
 void Prototype()
 {
