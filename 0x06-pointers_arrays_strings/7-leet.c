@@ -15,10 +15,6 @@ char *leet(char *str)
 		{
 			str[len] = 'a' - 'a' + '4';
 		}
-		else
-		{
-			str[len] = 'e' - 'e' + '3';
-		}
 	}
 
 	return (str);
