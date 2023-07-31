@@ -1,11 +1,22 @@
 #include "main.h"
 
 /**
- * Prototype - do something
- * @: int or char
+ * reverse_array - do something
+ * @a: pointer to int array
+ * @n: int
  * Return: some thing
  */
-void Prototype()
+void reverse_array(int *a, int n)
 {
-	
+	int i, j, temp;
+
+	j = n - 1;
+
+	for (i = 0; i < n / 2; i++)
+	{
+		temp = a[i];
+		a[i] = a[j];
+		a[j] = temp;
+		j--;
+	}
 }
