@@ -17,7 +17,7 @@ char *leet(char *str)
 		}
 		else if (str[len] == 'e' || str[len] == 'E')
 		{
-			str[len] = 'e' - ('e' - 'e');
+			str[len] = 'e' - ('e' - '3');
 		}
 	}
 
