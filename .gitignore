@@ -1,3 +1,4 @@
 executable_files/
 .code-workspace.code-workspace
 .vscode/
+*.o
