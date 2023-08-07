@@ -6,6 +6,7 @@ cat > $i << e
 
 /**
  * main - do something
+ *
  * Return: something
  */
 int main(void)
