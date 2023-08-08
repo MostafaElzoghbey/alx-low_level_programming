@@ -53,8 +53,13 @@ int _atoi(char *s)
  *
  * Return: Always 0 (Success)
  */
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
+	if (argc != 3)
+	{
+		printf("Error");
+		return (0);
+	}
 	int n1 = _atoi(argv[1]);
 	int n2 = _atoi(argv[2]);
 
