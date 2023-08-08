@@ -60,7 +60,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		printf("Error");
+		printf("Error\n");
 		return (0);
 	}
 	n1 = _atoi(argv[1]);
