@@ -7,10 +7,10 @@
  * 
  * Return: the resulting sum
  */
-long int sum_them_all(const unsigned int n, ...)
+int sum_them_all(const unsigned int n, ...)
 {
 	unsigned int i;
-	long int sum = 0;
+	int sum = 0;
 	va_list list;
 
 	va_start(list, n);
