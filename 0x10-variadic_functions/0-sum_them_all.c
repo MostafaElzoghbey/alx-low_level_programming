@@ -4,6 +4,7 @@
  * sum_them_all - calculates the sum of all its parameters
  * @n: number of arguments passed to the function
  * @...: list of args
+ * 
  * Return: the resulting sum
  */
 int sum_them_all(const unsigned int n, ...)
@@ -18,7 +19,7 @@ int sum_them_all(const unsigned int n, ...)
 	{
 		sum += va_arg(list, int);
 	}
-	
+
 	va_end(list);
 
 	return (sum);
