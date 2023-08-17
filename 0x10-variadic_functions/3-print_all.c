@@ -17,27 +17,24 @@ void print_all(const char * const format, ...)
 		{
 			switch (format[j])
 			{
-			case 'c':
-				printf("%s%c", sep, va_arg(list, int));
-				break;
-
-			case 'i':
-				printf("%s%d", sep, va_arg(list, int));
-				break;
-
-			case 'f':
-				printf("%s%f", sep, va_arg(list, double));
-				break;
-
-			case 's':
-				strng = va_arg(list, char *);
-				if (!strng)
-					strng = "(nil)";
-				printf("%s%s", sep, strng);
-				break;
-			default:
-				j++;
-				continue;
+				case 'c':
+					printf("%s%c", sep, va_arg(list, int));
+					break;
+				case 'i':
+					printf("%s%d", sep, va_arg(list, int));
+					break;
+				case 'f':
+					printf("%s%f", sep, va_arg(list, double));
+					break;
+				case 's':
+					strng = va_arg(list, char *);
+					if (!strng)
+						strng = "(nil)";
+					printf("%s%s", sep, strng);
+					break;
+				default:
+					j++;
+					continue;
 			}
 			sep = ", ";
 			j++;
