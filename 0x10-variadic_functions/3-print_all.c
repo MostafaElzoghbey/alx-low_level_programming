@@ -35,6 +35,9 @@ void print_all(const char * const format, ...)
 					strng = "(nil)";
 				printf("%s%s", sep, strng);
 				break;
+			default:
+				j++;
+				continue;
 			}
 			sep = ", ";
 			j++;
