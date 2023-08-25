@@ -16,10 +16,10 @@ char *str_concat(char *s1, char *s2)
 	len1 = 0;
 	len2 = 0;
 
-	while (s1[len1])
+	while (s1 && s1[len1])
 		len1++;
 
-	while (s2[len2])
+	while (s2 && s2[len2])
 		len2++;
 
 	total = malloc(sizeof(char) * (len1 + len2 + 1));
