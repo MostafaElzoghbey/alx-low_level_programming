@@ -9,10 +9,8 @@
   */
 char *argstostr(int ac, char **av)
 {
-	int height, width, totalLen;
+	int height, width, totalLen = 0;
 	char *str;
-
-	totalLen = 0;
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
@@ -32,7 +30,7 @@ char *argstostr(int ac, char **av)
 	str = malloc((sizeof(char) * totalLen) + 1);
 	if (str == NULL)
 		return (NULL);
-	
+
 	totalLen = 0;
 	height = 0;
 	while (height < ac)
@@ -49,6 +47,5 @@ char *argstostr(int ac, char **av)
 		height++;
 	}
 	str[totalLen] = '\0';
-
 	return (str);
 }
