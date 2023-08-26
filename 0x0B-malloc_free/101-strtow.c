@@ -31,7 +31,7 @@ int word_counter(char *str)
  * **strtow - splits a string into words
  * @str: string to split
  *
- * Return: pointer to an array of strings in (Success) or NULL in (Error)
+ * Return: pointer to an array of strings in (Success) or NULL in (Error).
  */
 char **strtow(char *str)
 {
