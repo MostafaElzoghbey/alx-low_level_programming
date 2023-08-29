@@ -9,9 +9,7 @@
 */
 int prime_test_rec(int n, int i)
 {
-	if (n < 0)
-		return (0);
-	if (n == 0 || n == 1)
+	if (n <= 1)
 		return (0);
 	if (i == n)
 		return (1);
