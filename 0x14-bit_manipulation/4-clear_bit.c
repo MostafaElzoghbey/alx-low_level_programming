@@ -8,17 +8,17 @@
  */
 int clear_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned long int powerOfOne;
+	unsigned long int powerOfZero;
 	unsigned int bit;
 
 	if (index > 64)
 		return (-1);
 	bit = index;
-	for (powerOfOne = 1; bit > 0; powerOfOne *= 2, bit--)
+	for (powerOfZero = 1; bit > 0; powerOfZero *= 2, bit--)
 		;
 
 	if ((*n >> index) & 1)
-		*n -= powerOfOne;
+		*n -= powerOfZero;
 
 	return (1);
 }
