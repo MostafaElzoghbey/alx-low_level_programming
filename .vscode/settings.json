@@ -4,7 +4,8 @@
     "_putchar.h": "c",
     "0-putchar.h": "c",
     "main.h": "c",
-    "variadic_functions.h": "c"
+    "variadic_functions.h": "c",
+    "stdlib.h": "c"
   },
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
