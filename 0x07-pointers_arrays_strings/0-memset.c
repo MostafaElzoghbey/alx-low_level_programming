@@ -3,8 +3,8 @@
 /**
  * _memset - a function that fills memory with a constant byte
  * @s: pointer to hold the values
- * @b: a constant byte
- * @n: the first n bytes of the memory area to fill with b
+ * @b: a constant byte to copy
+ * @n: number of times to copy b
  *
  * Return: pointer to the values
 */
