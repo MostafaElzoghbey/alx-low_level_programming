@@ -1,5 +1,28 @@
 #include "main.h"
 
+
+char *uniqe_str(char *s)
+{
+	char *uniqeStr = "";
+	int *index, i, j, flag, k = 0;
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		for (j = i + 1; s[j] != '\0'; j++)
+		{
+			flag = 0;
+			if (s[i] == s[j])
+				break;
+			flag = 1;
+		}
+		if (flag == 1)
+		{
+			uniqeStr[k] = s[i];
+			k++;
+		}
+	}
+	return (uniqeStr);
+}
 /**
  * _strchr - a function that locates a character in a string
  * @s: the string
