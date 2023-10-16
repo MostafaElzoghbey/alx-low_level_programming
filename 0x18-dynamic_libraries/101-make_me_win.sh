@@ -1,3 +1,3 @@
 #!/bin/bash
-cp /bin/bash /tmp/gm
+echo -e '#!/bin/bash\necho "Please make me win!"' > /tmp/gm
 chmod +x /tmp/gm
